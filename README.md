@@ -23,3 +23,21 @@ The objective of this project is to build an AI-powered Business Intelligence as
 - Generate appropriate SQL queries
 - Retrieve data through the BigQuery MCP Server
 - Present the information in a useful business-oriented response
+
+## Technologies Used
+
+- Python
+- Google ADK (Agent Development Kit)
+- Gemini
+- BigQuery
+- BigQuery MCP Server
+- Model Context Protocol (MCP)
+- Google Cloud
+
+## Dataset
+
+This project uses the public New York City Citi Bike dataset available through Google BigQuery:
+
+`bigquery-public-data.new_york_citibike`
+
+The dataset contains information related to Citi Bike trips and can be used to explore questions around bike usage, trip patterns, stations, and other business-related insights.
