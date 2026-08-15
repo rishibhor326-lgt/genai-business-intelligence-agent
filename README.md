@@ -80,3 +80,23 @@ Data Retrieved
 AI Agent Analysis
   ↓
 Business-oriented Response
+
+## Demo
+
+### Agent Execution
+
+The following screenshot shows the AI agent interacting with BigQuery through the BigQuery MCP Server. The agent identifies the required information, inspects the available data, and uses read-only SQL operations to retrieve the required information.
+
+![Agent execution](agent-execution.png)
+
+### Business Intelligence Result
+
+The agent analyzes the retrieved data and provides a business-oriented recommendation based on the user's question.
+
+![Business intelligence result](business-intelligence-result.png)
+
+## Deployment
+
+The application was deployed on Google Cloud Run and tested through the deployed ADK application interface.
+
+The deployment demonstrates how the AI agent can be hosted as a cloud-based application and interact with BigQuery through the MCP integration.
